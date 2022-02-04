@@ -1,10 +1,14 @@
+@import url(./assets/fonts/stylesheet.css);
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Urbanist', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(100% 623.97% at 100% 0%, #CFB662 0%, #CE8C60 32.29%, #7068DA 59.38%, #52B0DA 100%);
+min-height: 100vh;
 }
 
 code {

@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 83px 0 0 0;
+}
+
+.header__logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo-svg {
+    margin: 0 13px 0 0;
+    width: 60px;
+    height: 60px;
+}
+
+.header__logo-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 100%;
+    /* identical to box height, or 28px */
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+    margin: 0;
+}
+@media (max-width: 1272px){
+    .header{
+        padding: 62px 0 0 0;
+    }
+}
+@media (max-width: 800px){
+    .header{
+        padding: 28px 0 0 0;
+    }
+    .header__logo-svg{
+        width: 44px;
+        height: 44px;
+    }
+    
+}

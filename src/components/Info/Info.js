@@ -85,7 +85,15 @@ function Info() {
 
                 </div>
             </div>
-            <img className="info__tiger" src={tigerImg} alt="tiger" />
+            <div className='info__tiger-and-form'>
+                <img className="info__tiger" src={tigerImg} alt="tiger" />
+                <div className="info__form">
+                    <p className="info__form-title">Want to be the first?</p>
+                    <p className="info__form-text">Answer the questions about your collection and you will be one of the first to mint your collection on the Marketplace</p>
+                    <a className="info__form-link" href='https://druhk0gh9fz.typeform.com/to/HXoES14C'>Apply</a>
+                </div>
+            </div>
+
         </section>
     );
 }

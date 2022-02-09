@@ -7,7 +7,7 @@
 .info__texts {
     display: flex;
     flex-direction: column;
-    margin: 15px 39px 0 0;
+    margin: 0 39px 0 0;
 }
 
 .info__title {
@@ -186,9 +186,72 @@
     fill: #D5D5D5;
 }
 
+.info__tiger-and-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .info__tiger {
-    width: 412px;
-    height: 507px;
+    width: 357px;
+    height: 269px;
+
+}
+
+.info__form {
+    display: flex;
+    flex-direction: column;
+    width: 309px;
+    padding: 24px;
+    background: #6F6FE9;
+    border-radius: 24px;
+}
+
+.info__form-title {
+    margin: 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    /* or 38px */
+
+
+    /* On Surface */
+
+    color: #FFFFFF;
+}
+
+.info__form-text {
+    margin: 12px 0 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 19px */
+
+
+    color: #FFFFFF;
+}
+
+.info__form-link {
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+
+    /* main */
+
+    color: #6F6FE9;
+    padding: 12px 0;
+    background: #FFFFFF;
+    border-radius: 100px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 32px 0 0;
 }
 
 @media (max-width: 1272px) {
@@ -228,8 +291,31 @@
     }
 
     .info__tiger {
-        width: 231.6px;
-        height: 285px;
+        width: 250px;
+        height: 188px;
+    }
+
+    .info__form {
+        padding: 12px;
+        width: 243px;
+    }
+
+    .info__form-title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+    }
+
+    .info__form-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 120%;
+    }
+
+    .info__form-link {
+        margin: 20px 0 0;
     }
 }
 
@@ -295,8 +381,23 @@
     }
 
     .info__tiger {
-        width: 231.6px;
-        height: 285px;
-        margin: 28px 0 0;
+        width: 260px;
+        height: 196px;
+    }
+
+    .info__tiger-and-form {
+        margin: 32px 0 0;
+    }
+
+    .info__form {
+        width: calc(100% - 12px * 2);
+        max-width: 334px;
+    }
+
+    .info__form-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 120%;
     }
 }
